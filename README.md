@@ -1,3 +1,6 @@
+[![Build Status](https://app.bitrise.io/app/9d4933effed237f6/status.svg?token=Q3f5NGCYRuvyYLtxMgESug)](https://app.bitrise.io/app/9d4933effed237f6)
+[![Codemagic build status](https://api.codemagic.io/apps/5cdb3e385c7163001bfbf155/5cdb3e385c7163001bfbf154/status_badge.svg)](https://codemagic.io/apps/5cdb3e385c7163001bfbf155/5cdb3e385c7163001bfbf154/latest_build)
+
 # clickcounter_flutter
 
 A new Flutter application.
