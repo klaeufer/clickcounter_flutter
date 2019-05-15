@@ -47,15 +47,13 @@ class _MyHomePageState extends State<MyHomePage> {
   _MyHomePageState({int min, int max}) :
     _min = min,
     _max = max,
-    _counter = max;
+    _counter = min;
 
   final int _min;
   final int _max;
   int _counter;
 
   void _setIfInvariantHolds(final int newCounter) {
-    debugPrint("_min = " + _min.toString());
-    debugPrint("_max = " + _max.toString());
     if (_min <= newCounter && newCounter <= _max) {
       _counter = newCounter;
     }
