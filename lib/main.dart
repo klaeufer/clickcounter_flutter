@@ -128,12 +128,12 @@ class _MyHomePageState extends State<MyHomePage> {
             onPressed: _incrementCounter,
             tooltip: 'Increment',
             child: Icon(Icons.add),
-          ), // This trailing comma makes auto-formatting nicer for build methods.
+          ),
           FloatingActionButton(
             onPressed: _decrementCounter,
             tooltip: 'Decrement',
             child: Icon(Icons.remove),
-          ), // This trailing comma makes auto-formatting nicer for build methods.
+          ),
           FloatingActionButton(
             onPressed: _resetCounter,
             tooltip: 'Reset',
